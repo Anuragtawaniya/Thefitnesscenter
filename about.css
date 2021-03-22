@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  cursor: url("image/scroll.png"), auto;
+  height: 100vh;
+}
+header {
+  height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("image/about-img.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header > h1 {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.about {
+  background: #fff;
+  border-radius: 4px;
+  font-family: "Josefin Sans", sans-serif;
+  word-spacing: 2px;
+  line-height: 25px;
+  width: 50%;
+  margin: 20px 0;
+}
+.about p::first-letter {
+  color: crimson;
+  font-size: 1rem;
+  font-weight: bold;
+}
